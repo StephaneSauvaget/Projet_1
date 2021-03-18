@@ -1,0 +1,17 @@
+@import "style.css";
+
+#table {
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+thead {
+    background-color : black;
+    color : whitesmoke;
+}
+
+table, td, tr, th {
+    border : 1px solid black;
+}
