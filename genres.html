@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="genreStyle.css">
     <title>Document</title>
 </head>
-<header>
-    <nav>
-        <input type="checkbox" id="button_nav"> 
-        <label for="button_nav" id="image_nav">&equiv;</label>
-        <ul>
-            <li>
-                <a href="index.html">Accueil</a>
-            </li>
-            <li>
-                <a href="histoire.html">Histoire</a>
-            </li>
-            <li>
-                <a href="genres.html">Genres</a>
-            </li>
-            <li>
-                <a href="bienfaits.html">Bienfaits et Dangers</a>
-            </li>
-            <li>
-                <a href="plateformes.html">Plateformes</a>
-            </li>
-            <li>
-                <a href="entreprises.html">Entreprises</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+
 <body>
-    
+    <header>
+        <nav>
+            <input type="checkbox" id="button_nav">
+            <label for="button_nav" id="image_nav">&equiv;</label>
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="histoire.html">Histoire</a>
+                </li>
+                <li>
+                    <a href="genres.html">Genres</a>
+                </li>
+                <li>
+                    <a href="bienfaits.html">Bienfaits et Dangers</a>
+                </li>
+                <li>
+                    <a href="plateformes.html">Plateformes</a>
+                </li>
+                <li>
+                    <a href="entreprises.html">Entreprises</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Les Genres de jeux vidéo</h1>
+    </header>
+    <main>
+        <p class="textIntroGenre">
+            Chaques jeu vidéo est différents, cepandants la resemblance entre certains d'entre eux à permis de réaliser des catégories pour classer les jeux, on y trouve par exemple les fps ou encore les jeux de plateformes. Il est à noté que si certains jeux ont
+            un seul genre, d'autres jeux peuvent en avoir plusieurs.
+        </p>
+        <div class="container">
+            <div id="fps" class="genreDiv">
+                <img src="first-764971_1280.jpg" alt="image fps">
+                <h2>First Personn Shooter (FPS)</h2>
+                <p class="description">Ceci est un fps.</p>
+            </div>
+            <div id="mmorpg" class="genreDiv">
+                <img src="first-764971_1280.jpg" alt="image mmorpg">
+                <h2>(MMO-RPG)</h2>
+                <p class="description">Ceci est un mmorpg.</p>
+            </div>
+            <div id="rts" class="genreDiv">
+                <img src="first-764971_1280.jpg" alt="image rts">
+                <h2>Real Time Strategie (RTS)</h2>
+                <p class="description">Ceci est un rts.</p>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
