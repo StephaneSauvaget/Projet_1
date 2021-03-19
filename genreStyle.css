@@ -15,6 +15,7 @@ img {
     height: auto;
     width: 100vw;
     object-fit: cover;
+    display: block;
 }
 
 .genreDiv {
@@ -28,5 +29,11 @@ h2 {
 
 .description {
     margin-top: 0;
+    font-size: smaller;
+}
+
+figcaption {
+    color: white;
+    background-color: #404040;
     font-size: smaller;
 }
