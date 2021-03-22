@@ -5,6 +5,11 @@ body {
     margin-top: 1rem;
 }
 
+:root {
+    --primary-color: blue;
+    --secondary-color: orange;
+}
+
 nav ul {
     display: none;
     position: absolute;
@@ -48,8 +53,14 @@ header {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 h1 {
     text-align: center;
+}
+
+p {
+    padding-right: 5vw;
+    padding-left: 3vw;
 }
