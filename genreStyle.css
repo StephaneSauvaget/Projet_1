@@ -11,29 +11,6 @@ main {
     text-align: justify;
 }
 
-img {
-    background-size: cover;
-    height: auto;
-    min-width: 100vw;
-    width: 100vw;
-    object-fit: cover;
-    display: block;
-}
-
-.genreDiv {
-    max-width: 100vw;
-}
-
-h2 {
-    font-size: large;
-    margin-bottom: 0;
-}
-
-.description {
-    margin-top: 0;
-    font-size: smaller;
-}
-
 .container {
     --n: 1;
     width: calc(var(--n)*100%);
@@ -46,18 +23,57 @@ h2 {
     transition: transform .5s ease-out;
 }
 
-.container img {
-    max-height: 70vh;
-    width: auto;
-}
-
-.container div {
+.genreDiv {
+    max-width: 100vw;
     width: calc(100%/var(--n));
     pointer-events: none;
+    padding: 0;
+    margin: 0;
+}
+
+.imageLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    background-blend-mode: luminosity;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    display: block;
+    height: auto;
+    object-fit: contain;
+    max-height: 40vh;
+    height: auto;
+    max-width: 100vw;
+    width: 100vw;
 }
 
 figcaption {
     color: white;
     background-color: #404040;
     font-size: smaller;
+}
+
+h2 {
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-top: 0;
+    font-size: smaller;
+}
+
+@media screen and (min-width: 1024px) {
+    .imageLink {
+        height: 60vh;
+    }
+    img {
+        max-height: 60vh;
+    }
 }
