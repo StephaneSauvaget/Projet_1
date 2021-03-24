@@ -58,3 +58,37 @@
 .right::after, .left::after {
     left: -15px;
 }
+
+@media screen and (min-width: 1000px) {
+    .right {
+       left: 47%;
+    }
+
+    .right::before {
+        left: 0%;
+    }
+
+    .left {
+        right: 30px;
+    }
+
+    .left::after {
+        left: 97%;
+    }
+
+    .container {
+        width: 50%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .timeline::after {
+        left: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .right {
+        left: 47.5%;
+    }
+}
