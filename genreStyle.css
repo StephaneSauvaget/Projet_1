@@ -1,52 +1,53 @@
-@import "style.css";
-h1 {
-    font-size: large;
-    text-align: center;
-    width: 90%;
-}
-
-main {
-    max-width: 80 vw;
-}
-
-.textIntroGenre {
-    padding-right: 5vw;
-    padding-left: 3vw;
-    font-size: smaller;
-    text-align: justify;
-}
-
-img {
-    background-size: cover;
-    height: auto;
-    min-width: 100vw;
-    width: 100vw;
-    object-fit: cover;
-}
-
-.genreDiv {
-    max-width: 100vw;
-}
-
-h2 {
-    font-size: large;
-    margin-bottom: 0;
-}
-
-.description {
-    margin-top: 0;
-    font-size: smaller;
-}
-
-.container {
-    --n: 1;
-    width: calc(var(--n)*100%);
-    display: flex;
-    width: 100%;
-    overflow-y: hidden;
-    transform: translate(calc(var(--i, 0)/var(--n)*-100%));
-}
-
-.container img {
-    width: calc(100%/var(--n));
-}
+    @import "style.css";
+    main {
+        max-width: 80 vw;
+    }
+    
+    .textIntroGenre {
+        padding-right: 5vw;
+        padding-left: 3vw;
+        font-size: smaller;
+        text-align: justify;
+    }
+    
+    img {
+        background-size: cover;
+        height: auto;
+        min-width: 100vw;
+        width: 100vw;
+        object-fit: cover;
+        display: block;
+    }
+    
+    .genreDiv {
+        max-width: 100vw;
+    }
+    
+    h2 {
+        font-size: large;
+        margin-bottom: 0;
+    }
+    
+    .description {
+        margin-top: 0;
+        font-size: smaller;
+    }
+    
+    .container {
+        --n: 1;
+        width: calc(var(--n)*100%);
+        display: flex;
+        width: 100%;
+        overflow-y: hidden;
+        transform: translate(calc(var(--i, 0)/var(--n)*-100%));
+    }
+    
+    .container img {
+        width: calc(100%/var(--n));
+    }
+    
+    figcaption {
+        color: white;
+        background-color: #404040;
+        font-size: smaller;
+    }
