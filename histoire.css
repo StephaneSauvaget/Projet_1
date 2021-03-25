@@ -2,6 +2,19 @@
 
 * {
     box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--h1-font-family);
+}
+
+p {
+    font-family: var(--p-font-family);
 }
 
 .timeline {
@@ -26,7 +39,7 @@
     margin: 10px 0px 10px 30px;
     position: relative;
     width: 80%;
-    background-color: gray;
+    background-color: #303030;
     border-radius: 5px;
 }
 
@@ -59,9 +72,17 @@
     left: -15px;
 }
 
+h2 {
+    color: white;
+}
+
+.timeline p {
+    color: white;
+}
+
 @media screen and (min-width: 1000px) {
     .right {
-       left: 47%;
+       left: 50%;
     }
 
     .right::before {
@@ -73,7 +94,7 @@
     }
 
     .left::after {
-        left: 97%;
+        left: 97.5%;
     }
 
     .container {
