@@ -4,7 +4,8 @@ main {
     overflow-x: hidden;
 }
 
-.textIntroGenre {
+.textIntroGenre,
+.description {
     padding-right: 5vw;
     padding-left: 3vw;
     font-size: smaller;
@@ -64,16 +65,17 @@ h2 {
     margin-bottom: 0;
 }
 
-.description {
-    margin-top: 0;
-    font-size: smaller;
-}
-
 @media screen and (min-width: 1024px) {
     .imageLink {
         height: 60vh;
     }
     img {
         max-height: 60vh;
+    }
+    .textIntroGenre,
+    .description {
+        padding: 0;
+        margin: auto;
+        width: 1024px;
     }
 }
