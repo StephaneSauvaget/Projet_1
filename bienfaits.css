@@ -17,6 +17,14 @@ h1, h2 {
     
 }
 
+p {
+    font-family: var(--p-font-family);
+}
+
+h1 {
+    font-family: var(--h1-font-family);
+}
+
 thead {
     background-color : black;
     color : whitesmoke;
