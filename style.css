@@ -21,8 +21,6 @@ nav ul {
     position: absolute;
     background-color: var(--header-color);
     list-style-type: none;
-    top : 0;
-    
 }
 
 nav ul li {
@@ -54,8 +52,13 @@ a:visited,a:link {
 }
 
 header {
-    position:fixed;
+    display: flex;
+    width: 100vw;
+    background-color:var(--header-color);
+    border-bottom: 2px solid black;
+    position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 nav {
