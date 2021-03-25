@@ -7,11 +7,13 @@
 
 html,
 body {
+    display: inline-block;
     margin: 0;
     padding: 0;
     margin-top: 1rem;
     background-color: var(--first-color);
     font-family: var(--p-h1-family);
+
 }
 
 header {
@@ -37,11 +39,13 @@ nav {
     font-size: xx-large;
 }
 
+
 nav ul {
     display: none;
     position: absolute;
     background-color: var(--header-color);
     list-style-type: none;
+
     top: 1.4rem;
     border: 2px solid black;
     padding: 0;
@@ -59,6 +63,22 @@ nav ul li {
 #button_nav:checked~ul li {
     float: none;
 }
+
+
+
+
+
+footer {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    background-color: gray;
+    margin-top: 5vw;
+    justify-content: flex-end;
+}
+
+footer a {
+    font-size: larger;
 
 a:visited,
 a:link {
@@ -102,4 +122,5 @@ p {
         border-bottom: none;
         border-top: none;
     }
+
 }
