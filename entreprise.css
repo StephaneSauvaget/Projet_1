@@ -1,0 +1,28 @@
+@import "style.css";
+
+@media screen and (min-width: 1024px)
+{
+
+.image-liste {
+    display:grid;
+    grid-template-columns:2fr 2fr ;
+    grid-gap: 20px;
+}
+
+.intro-entreprise {
+    padding: 20px;
+    text-align:center;
+    border-bottom: 1px solid black;
+}
+
+p {
+    padding-top: 20px;
+    margin: 0rem 2rem;
+}
+
+
+img {
+    max-width: 20%;
+
+}
+}
