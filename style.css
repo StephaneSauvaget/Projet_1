@@ -80,3 +80,17 @@ h1, h2 {
 p {
     font-family: var(--p-font-family);
 }
+
+
+footer {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    background-color: gray;
+    margin-top: 5vw;
+    justify-content: flex-end;
+}
+
+footer a {
+    font-size: larger;
+}
