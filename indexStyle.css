@@ -4,10 +4,6 @@
     width: 100%;
 }
 
-p {
-    padding: 0px 1vh;
-}
-
 @media screen and (min-width: 1024px) {
     .explications div {
         display: flex;
@@ -18,5 +14,9 @@ p {
     .explications img {
         width: 100%;
         height: auto;
+    }
+
+    .left {
+        flex-direction: row-reverse;
     }
 }

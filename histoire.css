@@ -1,6 +1,6 @@
 @import "style.css";
 
-* {
+main * {
     box-sizing: border-box;
     text-align: center;
 }

@@ -1,6 +1,6 @@
 @import "style.css";
 
-p {
+main p {
     margin : 0rem 2rem;
 }
 
@@ -17,9 +17,6 @@ h1, h2 {
     
 }
 
-p {
-    font-family: var(--p-font-family);
-}
 
 h1 {
     font-family: var(--h1-font-family);
