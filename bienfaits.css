@@ -1,0 +1,51 @@
+@import "style.css";
+
+main p {
+    margin : 0rem 2rem;
+}
+
+h1, h2 {
+    margin-top: 2rem;
+}
+
+
+
+#table {
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+/*a {
+
+}*/
+
+h1 {
+    font-family: var(--h1-font-family);
+}
+
+thead {
+    background-color : black;
+    color : whitesmoke;
+}
+
+table, td, tr, th {
+    border : 2px solid black;
+}
+
+@media screen and (min-width: 1000px) {
+    td, th {
+        padding: 10px 20px;
+    }
+
+    h2, p {
+        text-align: center;
+    }
+
+    .useful-link ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+}
